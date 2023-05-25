@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,800&display=swap');
+
+.login {
+	background: #FFF;
+	color: #444;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+}
+
+.login:before {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content:'';
+}
+
+#login {
+	position: relative;
+	z-index: 2;
+	color: #444;
+}
+
+#loginform {
+	background: none;
+	box-shadow: none;
+	color: #444;
+}
+
+#loginform input {
+	outline: 0;
+}
+
+#loginform input:focus {
+	box-shadow: none;
+	border: 1px solid #000;
+}
+
+.login p {
+	font-weight: 300;
+	font-size: 22px;
+}
+
+
+
+.login h1 a {
+	display: block;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+    background: url(../library/images/logo.svg) center/contain no-repeat;
+    text-indent: -99999px;
+}
+
+.login form input {
+	height: 45px;
+	font-size: 20px!important;
+}
+
+#rememberme {
+	height: 16px!important;
+}
+
+.submit {
+	text-align: center;
+}
+
+.login .button, .login .button:focus, .login .button:hover {
+	display: inline-flex!important;
+	justify-content: center!important;
+	align-items: center!important;
+	height: 45px!important;
+	width: 100%!important;
+	font-size: 16px!important;
+	line-height: 24px!important;
+	color: #FFF!important;
+	font-weight: 800;
+	border: 1px solid #000!important;
+	border-radius: 5px!important;
+	transition: .25s all!important;
+	background: #000!important;
+	cursor: pointer;
+	float: none;
+	text-shadow: none;
+	box-shadow: none;
+	text-transform: uppercase;
+	margin: 30px auto 0 auto;
+}
+
+#login_error, .login #backtoblog a, .login #nav a, .privacy-policy-link {
+	color: #FFF;
+}
+
+#login_error:hover, .login #backtoblog a:hover, .login #nav a:hover, .privacy-policy-link:hover {
+	color: #000!important;
+}
+
+button.wp-hide-pw.button-secondary {
+	display: none!important;
+}

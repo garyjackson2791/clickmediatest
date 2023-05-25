@@ -1,0 +1,39 @@
+section.contact-details {
+  padding: 80px 0 90px;
+  margin-top: 40px; 
+  background: linear-gradient(0deg, #70B4D7 0%, #194777 100%);
+
+  .contact-methods {
+    margin-top: 65px;
+    .contact-method {
+      .icon {
+        margin-right: 36px;
+        border-radius: 50%;
+        width:67px;
+        min-width: 67px;
+        height: 67px;
+        background: $sea_blue;
+        padding: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      a {
+        font-size: 2.1rem;
+      }
+      .address {
+        font-size: 2.1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:575px) {
+  section.contact-details {
+    .contact-methods {
+      .contact-method {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

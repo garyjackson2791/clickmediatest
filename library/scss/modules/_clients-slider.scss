@@ -1,0 +1,17 @@
+section.clients-slider {
+  background: #F9F9F9;
+  padding: 75px 0 50px;
+  margin: 40px 0;
+  .clients {
+    margin-top: 50px;
+    .single-client {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-height: 100px;
+    }
+    .slick-dots {
+      margin-top: 55px;
+    }
+  }
+}

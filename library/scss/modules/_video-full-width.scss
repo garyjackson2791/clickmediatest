@@ -1,0 +1,36 @@
+section.video-full-width {
+  height: 460px;
+
+  @media screen and (min-width: 768px) {
+    height: 600px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 740px;
+  }
+
+  a {
+    position: relative;
+    height: 100%;
+    &:after {
+      pointer-events: none;
+      position: absolute;
+      top: calc(50% - 44px);
+      left: 50%;
+      @include transform(translateX(-50%));
+      color: #FFF;
+      content: '';
+      text-align: center;
+      height: 56px;
+      width: 56px;
+      background: url('../library/vectors/play-icon-white.svg') top center / 56px 56px no-repeat;
+      @include transition(0.3s ease-in-out all);
+    }
+    span {
+      padding-top: 90px;
+      color: $white;
+      font-weight: 700;
+      font-size: 3.1rem;
+      font-family: "ProximaNova-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+  }
+}

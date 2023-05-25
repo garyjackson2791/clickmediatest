@@ -1,0 +1,34 @@
+/* Partials
+================================================ */
+	@import "partials/reset";
+	@import "partials/mixins";
+	@import "partials/variables";
+	@import "partials/typography";
+	@import "partials/btn";
+	@import "partials/global";
+	@import "partials/wysiwyg";
+
+
+/* Third Party Payload
+================================================ */
+	@import "vendor/payload";
+
+
+/* Layout
+================================================ */
+	@import "layout/payload";
+
+
+/* Components Payload
+================================================ */
+	@import "components/payload";
+
+
+/* Pages Payload
+================================================ */
+	@import "pages/payload";
+
+
+/* Modules Payload
+================================================ */
+	@import "modules/payload";

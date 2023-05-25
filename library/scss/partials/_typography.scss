@@ -1,0 +1,68 @@
+/* Font stacks
+================================================ */
+	$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	$serif: "Georgia", Cambria, Times New Roman, Times, serif;
+	$font-default: $sans-serif;
+	$font-heading: $serif;
+
+/* Base Typography
+================================================ */
+	body {
+		font-family: $font-default;
+		font-size: 16px;
+		line-height: 1.5;
+		color: #333;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-variant-ligatures: none;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "ProximaNova-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+
+/* Links
+================================================ */
+	a, a:visited {
+		color: inherit;
+		text-decoration: none;
+	}
+
+
+
+/* Text Colours
+================================================ */
+
+.text-white {
+	color: $white;
+}
+.text-black {
+	color: $black;
+}
+.text-sea-blue {
+	color: $sea_blue;
+}
+.text-dark-grey {
+	color: $dark_grey;
+}
+
+/* Font Face Imports
+================================================ */
+
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('../library/fonts/proximanova_semibold.woff2');
+	src: url('../library/fonts/proximanova_semibold.woff2') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('../library/fonts/regular.woff2');
+	src: url('../library/fonts/regular.woff2') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+  

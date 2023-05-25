@@ -1,0 +1,25 @@
+section.accordion {
+  position: relative;
+  padding: 60px 0;
+  margin-bottom: 40px;
+  background: linear-gradient(0deg, #70B4D7 0%, #194777 100%);
+
+  .accordion-container {
+    margin-top: 76px;
+    .topic {
+      border-bottom: 1px solid $white;
+      &:first-of-type {
+        border-top: 1px solid $white;
+      }
+      .question {
+        cursor: pointer;
+        padding: 26px;
+        @include noselect();
+        font-size: 2.2rem;
+      }
+      .answer {
+        padding: 0 26px;
+      }
+    }
+  }
+}

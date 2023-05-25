@@ -1,0 +1,23 @@
+	.single-post {
+		ul, ol {
+			margin: 0px 0px 30px 20px;
+
+			li {
+				&:not(:last-of-type) {
+					margin-bottom: 5px;
+				}
+			}
+		}
+
+		ul {
+			list-style: disc;
+		}
+
+		ol {
+			list-style: decimal;
+		}
+
+		em {
+			font-style: italic;
+		}
+	}

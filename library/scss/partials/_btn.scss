@@ -1,0 +1,17 @@
+.btn {
+  font-size: 1.6rem;
+  display: inline-block;
+  border-radius: 45px;
+  padding: 18px 60px;
+  @include transition(0.3s ease-in-out all);
+  &.btn-white {
+    border: 1px solid $white;
+    background: $white;
+    color: $sea_blue;
+    &:hover {
+      background: $sea_blue;
+      color: $white;
+    }
+  }
+
+}
